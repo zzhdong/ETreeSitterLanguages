@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "TreeSitterLanguages",
+    name: "ETreeSitterLanguages",
     platforms: [.iOS(.v14)],
     products: [
         .library(name: "TreeSitterLanguagesCommon", targets: ["TreeSitterLanguagesCommon"]),
